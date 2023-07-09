@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  margin-top: 120px;
+  background-color: #212529;
+}
+
+#previous,
+#next {
+  text-transform: uppercase;
+  border-radius: 14px;
+  border: none;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff0f6;
+  background-color: #a61e4d;
+  letter-spacing: 2px;
+  margin-left: 18px;
+}
+
+#previous:hover,
+#previous:active,
+#next:hover,
+#next:active {
+  background-color: #d6336c;
+  transition: background-color 2s;
+  font-weight: bold;
+}
